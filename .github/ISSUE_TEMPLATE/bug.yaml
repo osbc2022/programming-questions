@@ -1,0 +1,29 @@
+name: 🐞 Found Bug in the code ?
+description: report issue if found any bugs in the project
+title : '[BUG]: "programing-lang-folder-name" "question-name"'
+labels: ["🐞 bug"]
+body:
+  - type: markdown
+    attributes:
+      value : |
+        Thanks for taking the time to fill out this bug report 💝 !
+  - type: textarea
+    id: description
+    attributes:
+      label: ✏️ Describe the bug
+      description: Give a brife description of the bug what result do you get and what were the expected result
+      placeholder: Describe bug here ...
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots
+      description: Give Screenshots if available
+      placeholder: you can copy paste a image or just drag and drop files here..
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Before Submitting Make Sure To See a Preview Of This Message.. 🤗

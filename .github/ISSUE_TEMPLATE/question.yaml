@@ -1,0 +1,43 @@
+name: 🔆 Have a Solution ?
+description: you can add new questions here that are not already present
+title: '[Blind75-Q]:"your-topic" ("your-question-no.") in "your-programming-lang"'
+labels: ['question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add value to the project 💝 !
+  - type: input
+    id: topic
+    attributes:
+      label: ✏️ Topic
+      description: write the name of the topic
+      placeholder: Type the topic here...
+    validations:
+      required: true
+  - type: input
+    id: question
+    attributes:
+      label: ✏️ Question
+      description: write the question which you want to solve make sure this is not present before 
+      placeholder: Type Question number here...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Make Sure you have read the [contribution guidelines]().. 🤗
+        - first go the the folder of programming language of your choice 
+        - if your desired language is not present then, make a folder with name of the language
+        - create a folder with topic name, say  `arry-questions`
+        - go inside that folder and create a file with required extention
+        - give a short name of the file which describes the question , example - `volume-of-cube.c`
+        - write the question and the answer with proper comments. ( question should be on top - commented)
+        - create a `README.md` file in the same folder along with your code file, and do these chages to the README.md file ;-
+          - give heading same as the question ex- ` ### find the voulme of a cube`
+          - write down the space and time complexcity if possible
+          - also write how you approached the question ( what were the steps, how was your thinking process) 
+  - type: markdown
+    attributes:
+      value: |
+        Before Submitting Make Sure To See a Preview Of This Message.. 🤗
